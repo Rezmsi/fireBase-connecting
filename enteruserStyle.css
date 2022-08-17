@@ -1,0 +1,44 @@
+.Form{
+    height: 245px;
+    display: flex;
+    width: 460px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: wheat;
+}
+
+.Form input{
+    height: 28px;
+    width: 80%;
+
+}
+
+.Form button{
+    height: 26px;
+    width: 33%;
+}
+
+a{
+    text-decoration: none;
+}
+
+.linkBtn{
+    background-color: transparent;
+    border: solid 0.5px;
+}
+
+.linkBtn:hover{
+    transition: 1s;
+    background-color: lightgreen;
+}
+
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 550px;
+    background-color: lightpink;
+}
